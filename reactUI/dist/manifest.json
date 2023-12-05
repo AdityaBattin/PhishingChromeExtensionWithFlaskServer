@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "WatchDog",
+  "version": "1.0",
+  "description": "Detect phishing websites in your browser.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

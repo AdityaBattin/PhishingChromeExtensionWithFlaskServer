@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Safe Surfer",
+  "version": "1.0",
+  "description": "Description of your extension",
+  "permissions": ["tabs"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "safe.png"
+    }
+  },
+  "icons": {
+    "16": "safe.png"
+  },
+  "background": {
+    "scripts": ["JS/popup.js"],
+    "persistent": false
+  },
+  "content_security_policy": "script-src 'self'; object-src 'self'"
+}
